@@ -1,0 +1,917 @@
+@media (max-width: 1600px) {
+  .deal-txt {
+    margin: 25px 0 17px;
+  }
+}
+@media (max-width: 1450px) {
+  .container {
+    max-width: 1100px;
+  }
+  .counter-input-box:first-child,
+  .counter-input-box:nth-child(2),
+  .counter-input-box:nth-child(3) {
+    width: 17%;
+  }
+  .marquee {
+    height: 376px;
+  }
+}
+@media (max-width: 1200px) {
+  .banner-tabbing .form-floating > label,
+  .chf-txt p {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .before-plan,
+  .chf-txt p {
+    overflow: hidden;
+  }
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 900px;
+  }
+  .main-left .nav-list > .para-md1 {
+    padding: 5px 7px;
+    margin-right: 9px;
+  }
+  .marquee {
+    height: 295px;
+  }
+  .banner .heading-lg {
+    margin-bottom: 30px;
+    font-size: 2.3rem;
+  }
+  .tab-tp-row .form-check {
+    margin-right: 25px;
+  }
+  .selDate .form-floating {
+    padding-left: 30px;
+  }
+  .selDate i {
+    font-size: 20px;
+    left: 10px;
+  }
+  .selDate .form-floating > label {
+    left: 29px;
+  }
+  .banner-tabbing .form-floating > label {
+    font-size: 14px;
+    -webkit-line-clamp: 1;
+    height: auto;
+    padding: 13px 9px 0;
+  }
+  .banner-row:last-child {
+    flex-wrap: wrap;
+  }
+  .counter-input-box:first-child,
+  .counter-input-box:nth-child(2),
+  .counter-input-box:nth-child(3) {
+    width: 15%;
+  }
+  .banner-tabbing .tab-content {
+    padding: 28px 20px;
+  }
+  .ribbon-card .para-lg0 {
+    line-height: 1.2;
+    margin: 15px 0;
+  }
+  .testi-item {
+    max-width: 700px;
+  }
+  .dr-card img {
+    width: 63px;
+  }
+  .dr-card {
+    padding: 23px 15px;
+  }
+  .logo img {
+    width: 17rem;
+  }
+  .scrolling-up ~ .banner .banner-btm.fixed {
+    top: 59px;
+  }
+  .scrolling-up ~ .banner.has-top-collapsable .banner-btm.fixed {
+    top: 104px;
+  }
+  .chf-txt p {
+    column-count: 1;
+    -webkit-line-clamp: 5;
+  }
+  .why-book-item img {
+    width: 6.7rem;
+    margin-bottom: 1rem;
+  }
+  .flight-ticket-form {
+    padding: 2rem;
+    margin: 0;
+  }
+  .pg-grid-item {
+    padding: 2rem;
+  }
+  .flights-inner .banner-content,
+  .hotel-page .banner-content,
+  .vacations-detail-page .banner-content,
+  .vacations-page .banner-content {
+    padding: 2.5rem 0;
+  }
+  .contact-card .para-lg0 {
+    font-size: 1rem;
+  }
+  .contact-card {
+    padding: 1.8rem 2rem;
+  }
+  #hotels .banner-row > .form-floating:first-child,
+  #vacations .banner-row > .form-floating:first-child {
+    width: 16%;
+  }
+  .rt-txt {
+    white-space: nowrap;
+  }
+  .banner-img,
+  .has-top-collapsable .banner-img {
+    height: auto;
+  }
+  .rooms_travelers {
+    width: 25%;
+  }
+  .ht-card img {
+    height: 10rem;
+  }
+  .filter-btn {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 160px;
+    padding: 1rem 0.6rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    border-radius: 0 7px 7px 0;
+    font-size: 1.1rem;
+    will-change: transform;
+  }
+  .fl-btns,
+  .search-results {
+    padding: 0;
+  }
+  .filter-btn i {
+    transform: rotate(180deg);
+    margin-top: 5px;
+  }
+  .flight-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .fl-center {
+    padding-right: 0;
+    border: none;
+    margin: 0 0 1rem;
+    width: 100%;
+  }
+  .fl-left {
+    border-right: 0;
+    margin: 0 0 1rem;
+  }
+  .fl-right {
+    margin-bottom: 1rem;
+  }
+  .fl-btns,
+  .fl-btns .btn {
+    margin: 0;
+  }
+  .fl-btns {
+    border: none;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fl-detail-box {
+    flex-direction: column;
+  }
+  .flight-route1 {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted var(--fade);
+  }
+  .fl-date-item,
+  .fl-date-item:first-child {
+    text-align: center;
+  }
+  .fl-logo-box img {
+    width: auto;
+    height: 2rem;
+    object-fit: contain;
+    margin-right: 0.5rem;
+  }
+  .fl-logo-box {
+    max-width: initial;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .flights-txt {
+    display: none;
+  }
+  .scrolling-down
+    ~ .search-results
+    .search-wedget
+    .filter-btn
+    + .banner-tab-pane {
+    top: 50% !important;
+  }
+  .filter-btn + .banner-tab-pane {
+    transform: scale(0) translate(-128%, -87%);
+    transition: 0.5s;
+    pointer-events: none;
+    top: 50% !important;
+    width: calc(100% - 1rem) !important;
+    left: 50%;
+    border-radius: 1.3rem;
+    z-index: 21 !important;
+    padding: 2rem 1.5rem;
+  }
+  .filter-overlay {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #0000009e;
+    z-index: 20;
+  }
+  .banner-tab-close {
+    position: absolute;
+    right: 23px;
+    top: 12px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+  }
+  .filter-btn + .banner-tab-pane.active {
+    transform: scale(1) translate(-50%, -50%);
+    pointer-events: all;
+  }
+  .banner-tab-pane.active + .filter-overlay {
+    opacity: 1;
+    pointer-events: all;
+  }
+  #bookingBox #ui-datepicker-div {
+    top: calc(100% - 12.7rem) !important;
+  }
+}
+@media (max-width: 1024px) {
+  .ribbon-card img {
+    width: 4.5rem;
+  }
+  .ribbon-card .para-lg0 {
+    margin: 0.9rem 0;
+    line-height: 1.1;
+  }
+  .ribbon-card li {
+    padding-left: 1.15rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+  }
+}
+@media (max-width: 992px) {
+  .backdroap,
+  .banner-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .backdroap,
+  .banner-img,
+  .has-top-collapsable .banner-img {
+    height: 100%;
+  }
+  #header-nav,
+  .backdroap {
+    transition: 0.5s;
+    position: fixed;
+  }
+  .booking-left .para-lg.text-theme,
+  .subs-txt {
+    text-align: center;
+  }
+  .lst-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-logos img,
+  .booking-left,
+  .form-floating .iti--allow-dropdown,
+  .ftr-link-left img,
+  .trvl-img-warp,
+  input#multi_phone {
+    width: 100%;
+  }
+  .banner-content {
+    position: relative;
+    padding-top: 2rem;
+  }
+  .banner-img {
+    position: absolute;
+    z-index: 0;
+    min-height: auto;
+  }
+  .banner-btm {
+    position: relative;
+  }
+  .banner-row,
+  .ftr-middle {
+    flex-wrap: wrap;
+  }
+  .banner-logos,
+  .logo {
+    margin-bottom: 0;
+  }
+  :not(.hotel-page) .banner-row:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  :not(.hotel-page) .tab-tp-row + .banner-row > .form-floating {
+    margin-right: 0;
+    width: calc(50% - 0.36rem);
+    flex-grow: initial;
+  }
+  #flights .banner-row:nth-child(3),
+  #hotels .banner-row,
+  #vacations .banner-row,
+  :not(.hotel-page) .tab-tp-row + .banner-row {
+    justify-content: space-between;
+  }
+  :not(.hotel-page, .vacations-page) .banner-row .theme-select,
+  :not(.hotel-page, .vacations-page) .selDate {
+    width: calc(50% - 5px);
+    margin-top: 0.75rem;
+  }
+  #hotels .banner-row li,
+  #vacations .banner-row li {
+    margin: 0;
+    width: 100%;
+    max-width: calc(50% - 5px);
+  }
+  #hotels .banner-row li:first-child,
+  #hotels .banner-row li:nth-child(2),
+  #vacations .banner-row li:first-child,
+  #vacations .banner-row li:nth-child(2) {
+    margin-bottom: 0.75rem;
+  }
+  #flights .banner-row:nth-child(3) li {
+    margin: 0 0 0.75rem !important;
+    width: calc(50% - 5px);
+  }
+  .call-content,
+  .div-saperator,
+  .header-btns,
+  .no-results-from,
+  .no-results-to,
+  .top-collapsable {
+    display: none;
+  }
+  .header-menu,
+  .header-nav + .backdroap,
+  .sml-header .toll-free {
+    display: block;
+  }
+  .toll-free > img {
+    margin-right: 0;
+  }
+  #header-nav {
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    background-color: var(--theme-color);
+    height: 100vh;
+    padding: 1.5rem;
+    z-index: 10;
+    min-width: 17rem;
+    transform: translateX(100%);
+  }
+  .main-header .container {
+    align-items: center;
+    padding: 0.9rem 2rem;
+  }
+  .toll-free {
+    margin-bottom: 0 !important;
+  }
+  .header-menu {
+    z-index: 10;
+    align-self: center;
+    margin-left: 1.5rem;
+  }
+  .header-menu span:nth-child(2) {
+    margin: 8px 0;
+  }
+  .header-menu span {
+    width: 24px;
+    height: 1px;
+    display: block;
+    background-color: var(--white);
+    transform-origin: right;
+    transition: 0.5s;
+  }
+  .side-menu-opened #header-nav {
+    transform: translate(0);
+  }
+  .scrolling-up ~ .banner .banner-btm.fixed,
+  .scrolling-up ~ .banner.has-top-collapsable .banner-btm.fixed {
+    top: 61px;
+  }
+  body.side-menu-opened {
+    overflow: hidden;
+  }
+  .backdroap {
+    background-color: #000000a3;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .backdroap.active,
+  .side-menu-opened .main-header .backdroap {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .side-menu-opened .header-menu span:first-child {
+    transform: rotate(-45deg);
+  }
+  .side-menu-opened .header-menu span:nth-child(2) {
+    opacity: 0;
+    margin: 7.5px 0;
+  }
+  .side-menu-opened .header-menu span:nth-child(3) {
+    transform: rotate(45deg);
+  }
+  .container {
+    padding: 0 4rem;
+  }
+  #flights .check-wrap {
+    align-items: center;
+    display: flex;
+  }
+  #flights .check-wrap .form-check {
+    margin-right: 2rem;
+  }
+  .overlap-design {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+  .our-costumer .para-lg0 {
+    margin: 0 0 1.2rem;
+  }
+  .our-costumer {
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+  .chf-txt {
+    padding-left: 1rem;
+  }
+  .frt-links {
+    width: 33.33%;
+  }
+  .frt-links:last-child {
+    margin-right: auto;
+  }
+  .testi-item {
+    max-width: 500px;
+    padding-bottom: 8px;
+  }
+  .testi-item .para-md2 {
+    max-width: 425px;
+    margin: 16px auto;
+    line-height: 1.3;
+  }
+  .subscribe {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .subs-txt {
+    margin-bottom: 1.5rem;
+  }
+  .subs-form {
+    width: 100%;
+    padding: 0;
+    max-width: 500px;
+  }
+  .ng-select {
+    width: calc(50% - 8px) !important;
+    margin-right: 0 !important;
+  }
+  .ng-row li:nth-last-child(2) {
+    margin-top: 15px;
+    width: calc(50% - 7px);
+  }
+  .ng-row li:last-child {
+    margin-top: 15px;
+    width: calc(50% - 9px);
+  }
+  .about_page .banner img {
+    min-height: 100%;
+    height: 100% !important;
+  }
+  .content-center .banner-content {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+  }
+  .about_page .banner {
+    position: relative;
+    padding-top: 60px;
+    overflow: hidden;
+  }
+  .ftr-link-left {
+    width: 68%;
+  }
+  .fl-right,
+  .lst-links {
+    flex-direction: row;
+  }
+  .pkr-div {
+    flex: 1 0 50%;
+  }
+  .flight-booking-wrapper {
+    flex-direction: column-reverse;
+  }
+  .yes-no-selects {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .yes-no-selects .sel-item.para-md:first-child {
+    display: flex;
+  }
+  .yes-no-selects input {
+    margin-right: 7px;
+  }
+  #yes-cancel-program {
+    margin-top: 5px;
+  }
+  .booking-right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .flight-filter-options {
+    position: fixed;
+    right: 0;
+    background-color: var(--secondary-color);
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding: 15px 3px;
+    font-size: 17px;
+    border-radius: 0 15px 15px 0;
+    top: 116px;
+  }
+  .flight-route1.flight-route1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: none;
+    margin-right: 18px;
+  }
+  .flight-filter-options + .banner-tab-pane {
+    top: 50% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 50px);
+    border-radius: 10px;
+    display: none;
+  }
+  .search_results :not(.hotel-page, .vacations-page) .banner-row .theme-select,
+  .search_results :not(.hotel-page, .vacations-page) .selDate {
+    width: calc(50% - 10px);
+  }
+  .search_results .theme-select + li {
+    margin-top: 15px;
+  }
+  .content-center .banner-content {
+    transform: none !important;
+  }
+  .right_side_content {
+    float: none;
+    margin-left: 0;
+    width: 100%;
+  }
+  .flight-ticket-form {
+    margin-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  section {
+    padding: 30px 0;
+  }
+  .container {
+    padding: 0 1.2rem;
+  }
+  .heading2 {
+    font-size: 1.7rem;
+  }
+  .heading-sm1 {
+    font-size: 1.5rem;
+  }
+  .main-header .container {
+    padding: 0.9rem;
+  }
+  .banner-tabbing .nav-item .nav-link {
+    padding: 1rem 0.8rem;
+    font-size: 1rem;
+  }
+  .tab-tp-row .form-check {
+    margin-right: 11px;
+  }
+  #flights .banner-row:nth-child(3) li,
+  .ftr-link-left,
+  .ftr-link-left img,
+  .getQuote-bottom,
+  .ideas-sl .swiper,
+  .plan-before-list li,
+  .search_results :not(.hotel-page, .vacations-page) .banner-row .theme-select,
+  .search_results :not(.hotel-page, .vacations-page) .selDate,
+  :not(.hotel-page) .tab-tp-row + .banner-row > .form-floating {
+    width: 100%;
+  }
+  :not(.hotel-page) .tab-tp-row + .banner-row > .form-floating:first-child {
+    margin-bottom: 1rem;
+  }
+  .form-arrow {
+    right: 50%;
+    bottom: -19px;
+    top: auto;
+    transform: translateX(50%);
+    border: 1px solid var(--white-alpha);
+    border-radius: 50%;
+  }
+  :not(.hotel-page, .vacations-page) .banner-row .theme-select,
+  :not(.hotel-page, .vacations-page) .selDate {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-top: 0;
+    height: 44px;
+  }
+  .banner .heading-lg {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .banner-btm .para-md2,
+  .slider-btn:before {
+    font-size: 0.8rem;
+  }
+  .toll-free {
+    margin-right: 0;
+  }
+  .toll-free > img {
+    width: 2rem;
+  }
+  .scrolling-up ~ .banner .banner-btm.fixed,
+  .scrolling-up ~ .banner.has-top-collapsable .banner-btm.fixed {
+    top: 53px;
+  }
+  .fl-description .cheap-hotels .container {
+    padding: 2rem 2.5rem;
+  }
+  .deal-txt > img,
+  .ideas-trip .ideas-nav,
+  .subs-txt .para-md3 br,
+  .tab-tp-row .form-check.form-check-inline:last-child,
+  .testislider-btn {
+    display: none;
+  }
+  .multi-fields > div::before {
+    top: 9px;
+    transform: none;
+  }
+  .flight-ticket-form,
+  .vcd-card {
+    margin-top: 2rem;
+  }
+  #hotels .banner-row li,
+  #hotels .banner-row > .form-floating:first-child,
+  #vacations .banner-row li,
+  #vacations .banner-row > .form-floating:first-child {
+    width: 100%;
+    max-width: 100%;
+  }
+  .room-traveller-box i.fas.fa-bed {
+    font-size: 1.4rem;
+  }
+  .rooms_travelers {
+    height: 50px;
+    margin-bottom: 0.7rem !important;
+  }
+  .pkr-div {
+    flex: 1 0 100%;
+  }
+  .room-travelers-form {
+    right: -31px;
+  }
+  .getQuote-box,
+  .lst-links {
+    flex-direction: column;
+  }
+  .getQuote-top {
+    padding: 0 0 1rem;
+    margin: 0 0 1rem;
+    border: none;
+    border-bottom: 1px dashed var(--fade);
+  }
+  .ideas-sl,
+  .ideas-sml {
+    padding: 0;
+  }
+  .ideas-sml .ideas-top {
+    margin-top: 7px;
+  }
+  .ideas-sl {
+    flex-direction: column;
+  }
+  .ideas-nav {
+    justify-content: center;
+  }
+  .slider-btn {
+    width: 2rem;
+    height: 2rem;
+  }
+  .vcn-txt {
+    padding-right: 0;
+  }
+  .cheap-hotels .container {
+    padding: 2rem;
+  }
+  .banner-row > li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .ticket-table-sec .col-lg-12 {
+    overflow: auto;
+  }
+  .pg-grid-item {
+    padding: 1rem;
+  }
+  .lfs-box {
+    padding: 1.4rem;
+  }
+  .lfs-box i {
+    right: 13px;
+  }
+  #ui-datepicker-div {
+    z-index: 11 !important;
+  }
+  .col-lg-12 .page-card img {
+    aspect-ratio: 385/328;
+  }
+  .testi-item {
+    padding: 0 10px;
+  }
+  .subscribe {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .newslater-btn {
+    padding: 0 1rem;
+    font-size: 0.9rem;
+  }
+  .subs-form input {
+    height: 44px;
+  }
+  .ftr-link-left a {
+    margin: 0 8px 15px;
+  }
+  .ftr-social a {
+    margin: 0 1rem;
+  }
+  .popular-vacation .ht-card > img {
+    aspect-ratio: 3/2;
+  }
+  .fl-description {
+    padding-top: 0;
+  }
+  .brick-btns {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .brick-btns .btn-underline {
+    margin-left: 0;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .ng-select {
+    width: 100% !important;
+  }
+  .ng-row li:nth-last-child(2) {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .banner-logos {
+    margin-bottom: 0;
+  }
+  .banner-logos li {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .coaches_travelers .room-travelers-form {
+    width: 100%;
+    min-width: 100%;
+    width: calc(100% + 58px);
+    left: -28px;
+    padding: 0.9rem 0.5rem;
+  }
+  .rt-main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rtf-btn {
+    margin-top: 0.5rem;
+  }
+  .coaches_travelers .rt-label {
+    white-space: normal;
+    font-size: 0.9rem;
+  }
+  .frt-links,
+  .rt-main td {
+    width: 50%;
+  }
+  .rtf-btn .btn {
+    margin-right: 12px;
+  }
+  .banner-tab-pane .form-control + span:not(:empty) {
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    left: 11px;
+  }
+  .tab-tp-row .ms-auto {
+    margin-left: 0 !important;
+    margin-top: 7px;
+  }
+  .flight-route1.flight-route1 {
+    margin-right: 0;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #b3b3b3;
+    width: 100%;
+  }
+  .fl-right {
+    flex-direction: column;
+    width: 100%;
+  }
+  .flight-filter-options + .banner-tab-pane {
+    padding: 1.5rem 1rem;
+  }
+  .selDate input {
+    height: 44px !important;
+  }
+  #bookingBox #ui-datepicker-div {
+    left: 15px !important;
+    top: calc(100% - 12rem) !important;
+  }
+  .agree-checkline input {
+    position: absolute;
+    transform: translate(-5px, 4px);
+  }
+  .agree-checkline label {
+    padding-left: 17px;
+  }
+  .frt-links .para-md2 {
+    margin-bottom: 0;
+    margin-top: 23px;
+  }
+}
+@media (max-width: 650px) {
+  .invoice-sec {
+    overflow: hidden;
+  }
+  .invoice-sec > div {
+    transform: scale(0.45) translate(-59.5%, -65%);
+    width: 215vw !important;
+  }
+}
+@media (max-width: 359px) {
+  .logo img {
+    width: 14rem;
+  }
+  .banner-tabbing .nav-item .nav-link {
+    padding: 0.8rem 0.5rem;
+    font-size: 0.9rem;
+  }
+  .tab-tp-row .form-check-label {
+    font-size: 0.9rem;
+  }
+  .tab-tp-row .form-check {
+    margin-right: 8px;
+  }
+  .tab-tp-row .form-check:nth-child(3) {
+    padding-left: 0;
+  }
+}
